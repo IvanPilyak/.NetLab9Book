@@ -1,0 +1,337 @@
+\hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{}\section{Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle Class Reference}
+\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+
+
+Represents a rectangle.  
+
+
+Inheritance diagram for Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.045752cm]{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_aff0dea3f3960057f0ce884940931634d}{Rectangle}} (Point top\+Left, Point bottom\+Right)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a8377cd4a5331c4078650a98589cd5fa7}{Rectangle}} (int top\+LeftX, int top\+LeftY, int bottom\+RightX, int bottom\+RightY)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a67786139a7e5f852c0442423c6a52418}{Move\+Up}} ()
+\begin{DoxyCompactList}\small\item\em Moves up. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a46416a1374137c9536a3cf0eae8fd2f8}{Move\+Down}} ()
+\begin{DoxyCompactList}\small\item\em Moves down. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_adf5fbf63db1eaf0959ef5e6c9dbdedb2}{Move\+Left}} ()
+\begin{DoxyCompactList}\small\item\em Moves left. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a794f5d29886b4dd004db176c553d5597}{Move\+Right}} ()
+\begin{DoxyCompactList}\small\item\em Moves right. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a3e04e783432b8419633128bc394fb173}{Zoom\+In}} ()
+\begin{DoxyCompactList}\small\item\em Zooms in. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a209c6d610377927da638f31feecfbed0}{Zoom\+Out}} ()
+\begin{DoxyCompactList}\small\item\em Zooms out. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}} \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a8668c0fab1185332bb0233dba3673b8c}{Intersect}} (\mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}} first, \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}} second)
+\begin{DoxyCompactList}\small\item\em Find intersect between two rectangles. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}} \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a3da65a7a9d7e5b6cb3766c7128a49e26}{Union}} (\mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}} first, \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}} second)
+\begin{DoxyCompactList}\small\item\em Find union between two rectangles. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a25ab4b890ebd7d83727f96ffbac1e817}{Get\+Height}} =$>$ Math.\+Abs(Top\+Left.\+Y -\/ Bottom\+Right.\+Y)
+\begin{DoxyCompactList}\small\item\em Gets height. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a74ef96d15fc69f1b88666885efb40e0f}{Get\+Width}} =$>$ Math.\+Abs(Top\+Left.\+X -\/ Bottom\+Right.\+X)
+\begin{DoxyCompactList}\small\item\em Gets width. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Point \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a85aba54e7229df64372aacd0524a2c1e}{Top\+Left}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets Top Left Point . \end{DoxyCompactList}\item 
+Point \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a822c5acb5bc2fa4af7baa46be011d1a6}{Bottom\+Right}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets Bottom right Point . \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents a rectangle. 
+
+
+
+Definition at line 10 of file Rectangle.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_aff0dea3f3960057f0ce884940931634d}\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_aff0dea3f3960057f0ce884940931634d}} 
+\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+\subsubsection{\texorpdfstring{Rectangle()}{Rectangle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle.\+Rectangle (\begin{DoxyParamCaption}\item[{Point}]{top\+Left,  }\item[{Point}]{bottom\+Right }\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em top\+Left} & The top left Point\\
+\hline
+{\em bottom\+Right} & The bottom right Point\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 20 of file Rectangle.\+cs.
+
+\mbox{\Hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a8377cd4a5331c4078650a98589cd5fa7}\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a8377cd4a5331c4078650a98589cd5fa7}} 
+\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+\subsubsection{\texorpdfstring{Rectangle()}{Rectangle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle.\+Rectangle (\begin{DoxyParamCaption}\item[{int}]{top\+LeftX,  }\item[{int}]{top\+LeftY,  }\item[{int}]{bottom\+RightX,  }\item[{int}]{bottom\+RightY }\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em top\+LeftX} & The top left x-\/coordinate\\
+\hline
+{\em top\+LeftY} & The top left y-\/coordinate\\
+\hline
+{\em bottom\+RightX} & The bottom right x-\/coordinate\\
+\hline
+{\em bottom\+RightY} & The bottom right y-\/coordinate\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 33 of file Rectangle.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a8668c0fab1185332bb0233dba3673b8c}\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a8668c0fab1185332bb0233dba3673b8c}} 
+\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}!Intersect@{Intersect}}
+\index{Intersect@{Intersect}!TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+\subsubsection{\texorpdfstring{Intersect()}{Intersect()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}} Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle.\+Intersect (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}}}]{first,  }\item[{\mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}}}]{second }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Find intersect between two rectangles. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & First rectangle.\\
+\hline
+{\em second} & Second rectangle.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 73 of file Rectangle.\+cs.
+
+\mbox{\Hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a46416a1374137c9536a3cf0eae8fd2f8}\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a46416a1374137c9536a3cf0eae8fd2f8}} 
+\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}!MoveDown@{MoveDown}}
+\index{MoveDown@{MoveDown}!TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+\subsubsection{\texorpdfstring{MoveDown()}{MoveDown()}}
+{\footnotesize\ttfamily void Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle.\+Move\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Moves down. 
+
+
+
+Implements \mbox{\hyperlink{interface_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_interfaces_1_1_i_moveble_a23443cd54657cc981a48ef7f9904185d}{Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Interfaces.\+I\+Moveble}}.
+
+
+
+Definition at line 114 of file Rectangle.\+cs.
+
+\mbox{\Hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_adf5fbf63db1eaf0959ef5e6c9dbdedb2}\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_adf5fbf63db1eaf0959ef5e6c9dbdedb2}} 
+\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}!MoveLeft@{MoveLeft}}
+\index{MoveLeft@{MoveLeft}!TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+\subsubsection{\texorpdfstring{MoveLeft()}{MoveLeft()}}
+{\footnotesize\ttfamily void Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle.\+Move\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Moves left. 
+
+
+
+Implements \mbox{\hyperlink{interface_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_interfaces_1_1_i_moveble_a277cd113ed9b4f35228f1c84bb17e91e}{Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Interfaces.\+I\+Moveble}}.
+
+
+
+Definition at line 123 of file Rectangle.\+cs.
+
+\mbox{\Hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a794f5d29886b4dd004db176c553d5597}\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a794f5d29886b4dd004db176c553d5597}} 
+\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}!MoveRight@{MoveRight}}
+\index{MoveRight@{MoveRight}!TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+\subsubsection{\texorpdfstring{MoveRight()}{MoveRight()}}
+{\footnotesize\ttfamily void Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle.\+Move\+Right (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Moves right. 
+
+
+
+Implements \mbox{\hyperlink{interface_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_interfaces_1_1_i_moveble_a1e6b39ff1e153b383e081f991501e742}{Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Interfaces.\+I\+Moveble}}.
+
+
+
+Definition at line 132 of file Rectangle.\+cs.
+
+\mbox{\Hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a67786139a7e5f852c0442423c6a52418}\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a67786139a7e5f852c0442423c6a52418}} 
+\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}!MoveUp@{MoveUp}}
+\index{MoveUp@{MoveUp}!TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+\subsubsection{\texorpdfstring{MoveUp()}{MoveUp()}}
+{\footnotesize\ttfamily void Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle.\+Move\+Up (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Moves up. 
+
+
+
+Implements \mbox{\hyperlink{interface_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_interfaces_1_1_i_moveble_a2be55236c78ebdcac42f22d31abdf18e}{Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Interfaces.\+I\+Moveble}}.
+
+
+
+Definition at line 105 of file Rectangle.\+cs.
+
+\mbox{\Hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a3da65a7a9d7e5b6cb3766c7128a49e26}\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a3da65a7a9d7e5b6cb3766c7128a49e26}} 
+\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}!Union@{Union}}
+\index{Union@{Union}!TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+\subsubsection{\texorpdfstring{Union()}{Union()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}} Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle.\+Union (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}}}]{first,  }\item[{\mbox{\hyperlink{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle}{Rectangle}}}]{second }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Find union between two rectangles. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & First rectangle.\\
+\hline
+{\em second} & Second rectangle.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 93 of file Rectangle.\+cs.
+
+\mbox{\Hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a3e04e783432b8419633128bc394fb173}\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a3e04e783432b8419633128bc394fb173}} 
+\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}!ZoomIn@{ZoomIn}}
+\index{ZoomIn@{ZoomIn}!TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+\subsubsection{\texorpdfstring{ZoomIn()}{ZoomIn()}}
+{\footnotesize\ttfamily void Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle.\+Zoom\+In (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Zooms in. 
+
+
+
+Implements \mbox{\hyperlink{interface_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_interfaces_1_1_i_sizeble_ada6181d54740d570d1575307c2574a0d}{Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Interfaces.\+I\+Sizeble}}.
+
+
+
+Definition at line 141 of file Rectangle.\+cs.
+
+\mbox{\Hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a209c6d610377927da638f31feecfbed0}\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a209c6d610377927da638f31feecfbed0}} 
+\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}!ZoomOut@{ZoomOut}}
+\index{ZoomOut@{ZoomOut}!TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+\subsubsection{\texorpdfstring{ZoomOut()}{ZoomOut()}}
+{\footnotesize\ttfamily void Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle.\+Zoom\+Out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Zooms out. 
+
+
+
+Implements \mbox{\hyperlink{interface_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_interfaces_1_1_i_sizeble_ab4a49e0b6bbc4aa62f9ac1175b73e704}{Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Interfaces.\+I\+Sizeble}}.
+
+
+
+Definition at line 152 of file Rectangle.\+cs.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a25ab4b890ebd7d83727f96ffbac1e817}\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a25ab4b890ebd7d83727f96ffbac1e817}} 
+\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}!GetHeight@{GetHeight}}
+\index{GetHeight@{GetHeight}!TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+\subsubsection{\texorpdfstring{GetHeight}{GetHeight}}
+{\footnotesize\ttfamily int Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle.\+Get\+Height =$>$ Math.\+Abs(Top\+Left.\+Y -\/ Bottom\+Right.\+Y)}
+
+
+
+Gets height. 
+
+
+
+Definition at line 60 of file Rectangle.\+cs.
+
+\mbox{\Hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a74ef96d15fc69f1b88666885efb40e0f}\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a74ef96d15fc69f1b88666885efb40e0f}} 
+\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}!GetWidth@{GetWidth}}
+\index{GetWidth@{GetWidth}!TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+\subsubsection{\texorpdfstring{GetWidth}{GetWidth}}
+{\footnotesize\ttfamily int Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle.\+Get\+Width =$>$ Math.\+Abs(Top\+Left.\+X -\/ Bottom\+Right.\+X)}
+
+
+
+Gets width. 
+
+
+
+Definition at line 65 of file Rectangle.\+cs.
+
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a822c5acb5bc2fa4af7baa46be011d1a6}\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a822c5acb5bc2fa4af7baa46be011d1a6}} 
+\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}!BottomRight@{BottomRight}}
+\index{BottomRight@{BottomRight}!TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+\subsubsection{\texorpdfstring{BottomRight}{BottomRight}}
+{\footnotesize\ttfamily Point Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle.\+Bottom\+Right\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets Bottom right Point . 
+
+
+
+Definition at line 52 of file Rectangle.\+cs.
+
+\mbox{\Hypertarget{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a85aba54e7229df64372aacd0524a2c1e}\label{class_test_project_1_1_task_library_1_1_tasks_1_1_lesson6_1_1_models_1_1_rectangle_a85aba54e7229df64372aacd0524a2c1e}} 
+\index{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}!TopLeft@{TopLeft}}
+\index{TopLeft@{TopLeft}!TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle@{TestProject.TaskLibrary.Tasks.Lesson6.Models.Rectangle}}
+\subsubsection{\texorpdfstring{TopLeft}{TopLeft}}
+{\footnotesize\ttfamily Point Test\+Project.\+Task\+Library.\+Tasks.\+Lesson6.\+Models.\+Rectangle.\+Top\+Left\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets Top Left Point . 
+
+
+
+Definition at line 43 of file Rectangle.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Epam Course/\+Class\+Work/.\+Net-\/\+Lab/\+Test\+Project.\+Task\+Library/\+Tasks/\+Lesson6/\+Models/Rectangle.\+cs\end{DoxyCompactItemize}
